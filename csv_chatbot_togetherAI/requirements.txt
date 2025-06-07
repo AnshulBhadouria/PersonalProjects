@@ -4,3 +4,4 @@ numpy
 langchain
 langchain_community
 os
+matplotlib
