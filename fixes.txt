@@ -1,1 +1,3 @@
 I am a fix file for teting & bug fixing
+fix 1
+fix 2
