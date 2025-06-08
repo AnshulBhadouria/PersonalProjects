@@ -1,7 +1,7 @@
 #My Python Project to check LLMS Capabilities
 import streamlit as st
 import pandas as pd
-from langchain.agents import create_pandas_dataframe_agent
+from langchain_experimental.agents import create_pandas_dataframe_agent
 from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatTogether
 import os
