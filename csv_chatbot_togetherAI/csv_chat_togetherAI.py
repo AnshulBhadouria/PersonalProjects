@@ -19,7 +19,8 @@ model_name = st.selectbox("Select a model", [
     "togethercomputer/llama-3-8b-instruct",
     "togethercomputer/mistral-7b-instruct",
     "togethercomputer/gemma-7b-it",
-    "togethercomputer/phi-2"
+    "togethercomputer/phi-2",
+    "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
 ])
 
 # File upload
