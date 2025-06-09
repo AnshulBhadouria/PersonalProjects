@@ -41,11 +41,10 @@ if api_key and uploaded_file:
                        temperature=0.2,
                        max_tokens=None,
                        timeout=None,
-                       max_retries=2,
-                       handle_parsing_errors=True)
+                       max_retries=2)
 
     # Agent
-    agent = create_pandas_dataframe_agent(llm, df, verbose=True)
+    agent = create_pandas_dataframe_agent(llm, df, verbose=True,agent_executor_kwargs={"handle_parsing_errors": True})
 
     # Question input
     st.markdown("### 💬 Ask a question about your CSV")
