@@ -35,7 +35,11 @@ if api_key and uploaded_file:
     st.dataframe(df.head())
 
     # Setup LangChain + Together
-    llm = ChatTogether(model=model_name, temperature=0.2)
+    llm = ChatTogether(model=model_name,
+                       temperature=0.2,
+                       max_tokens=None,
+                       timeout=None,
+                       max_retries=2)
 
     # Agent
     agent = create_pandas_dataframe_agent(llm, df, verbose=True)
