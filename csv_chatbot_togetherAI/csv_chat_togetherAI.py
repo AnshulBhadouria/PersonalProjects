@@ -5,6 +5,7 @@ from langchain_experimental.agents import create_pandas_dataframe_agent
 from langchain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatTogether
 import os
+import together
 
 st.set_page_config(page_title="CSV Chatbot with Together.ai", layout="wide")
 st.title("🤖 CSV Chatbot using Together.ai")

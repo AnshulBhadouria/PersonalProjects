@@ -1,6 +1,9 @@
-streamlit
-pandas==2.1.4
-numpy==1.24.4
-langchain==0.1.14
-langchain-experimental==0.0.47
-langchain-community==0.0.24
+pandas==2.2.2
+numpy==1.26.4
+langchain==0.1.16
+together==0.2.10
+streamlit==1.35.0
+# Install langchain_community and langchain_experimental from GitHub
+git+https://github.com/langchain-ai/langchain.git@v0.1.16#subdirectory=libs/community
+git+https://github.com/langchain-ai/langchain.git@v0.1.16#subdirectory=libs/experimental
+
