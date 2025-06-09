@@ -16,13 +16,8 @@ api_key = st.text_input("Enter your Together.ai API Key", type="password")
 
 # Model selection
 model_name = st.selectbox("Select a model", [
-    "togethercomputer/llama-3-8b-instruct",
-    "togethercomputer/mistral-7b-instruct",
-    "togethercomputer/gemma-7b-it",
-    "togethercomputer/phi-2",
-    "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-    "lgai/exaone-3-5-32b-instruct",
-    "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free"
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
+    "meta-llama/Llama-Vision-Free"
 ])
 
 # File upload
