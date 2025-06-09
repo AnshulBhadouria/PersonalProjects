@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 from langchain_experimental.agents import create_pandas_dataframe_agent
 from langchain.chat_models import ChatOpenAI
-from langchain_community.chat_models import ChatTogether
+from langchain_together import ChatTogether
 import os
 import together
 

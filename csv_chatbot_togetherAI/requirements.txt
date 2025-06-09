@@ -6,4 +6,4 @@ streamlit==1.35.0
 # Install langchain_community and langchain_experimental from GitHub
 git+https://github.com/langchain-ai/langchain.git@v0.1.16#subdirectory=libs/community
 git+https://github.com/langchain-ai/langchain.git@v0.1.16#subdirectory=libs/experimental
-
+langchain_together
