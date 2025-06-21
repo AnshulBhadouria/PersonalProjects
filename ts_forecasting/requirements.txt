@@ -1,0 +1,4 @@
+streamlit
+pandas
+matplotlib
+pycaret[time_series]
