@@ -17,4 +17,3 @@ def plot_df(df, x, y, title="", xlabel='Date', ylabel='Number of Passengers', dp
     plt.show()
     
 
-plot_df(df, x=df['Date'], y=df['Number of Passengers'], title='Number of US Airline passengers from 1949 to 1960')
