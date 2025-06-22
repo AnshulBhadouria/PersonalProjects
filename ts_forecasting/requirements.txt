@@ -1,7 +1,6 @@
-streamlit
-pandas
+streamlit==1.45.1
+pandas==2.1.4
 matplotlib
-scikit-learn
-pycaret
-sktime
-rich
+sklearn==1.4.2
+pycaret==3.3.2
+sktime==0.26.0
