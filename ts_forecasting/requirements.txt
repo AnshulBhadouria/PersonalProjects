@@ -1,4 +1,6 @@
 streamlit
 pandas
 matplotlib
-pycaret[time_series]
+pycaret==3.0.0rc2
+scikit-learn<1.2
+numpy<1.24
