@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 from pycaret.time_series import *
 from io import BytesIO
 
+import rich, sktime
+st.sidebar.write("✅ rich version:", rich.__version__)
+st.sidebar.write("✅ sktime version:", sktime.__version__)
+
 # --- App Config ---
 st.set_page_config(page_title="📈 Time Series Forecasting", layout="wide")
 st.title("📊 Time Series Forecasting App")
